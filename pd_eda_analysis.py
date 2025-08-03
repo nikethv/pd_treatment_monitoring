@@ -705,8 +705,6 @@ def feature_importance_analysis(df):
         print(f"❌ Error in feature importance analysis: {str(e)}")
         return None
 
-
-
 # ============================================================================
 # 8. STATISTICAL SUMMARY AND INSIGHTS
 # ============================================================================
