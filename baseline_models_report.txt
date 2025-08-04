@@ -9,7 +9,7 @@ MODEL PERFORMANCE SUMMARY
               Model  Accuracy      AUC  F1-Score
       Random Forest    0.9974 0.994210  0.940092
             XGBoost    0.9973 0.998686  0.937644
-                SVM    0.9797 0.831030  0.404692
+                SVM    0.9789 0.854001  0.370149
 Logistic Regression    0.9771 0.666312  0.000000
 
 BEST PERFORMING MODEL
