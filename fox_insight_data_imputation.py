@@ -12,12 +12,9 @@ import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
 
-# ============================================================================
-# FIXED IMPORTS - CORRECT ORDER
-# ============================================================================
 
-# Enable experimental features FIRST
-from sklearn.experimental import enable_iterative_imputer  # Must be BEFORE IterativeImputer
+
+from sklearn.experimental import enable_iterative_imputer  
 
 # Now import the imputers
 from sklearn.impute import KNNImputer, IterativeImputer
@@ -25,10 +22,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 import matplotlib.pyplot as plt
 import seaborn as sns
-
-# ============================================================================
-# LOAD YOUR INTEGRATED DATASET
-# ============================================================================
 
 # Load the dataset you created
 DATA_PATH = r"C:\Users\niket\OneDrive\Desktop\filtered_data\fox_insight_multimodal_CORE.csv"
