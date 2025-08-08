@@ -8,7 +8,7 @@ MODEL PERFORMANCE SUMMARY
 ------------------------------
               Model  Accuracy      AUC  F1-Score
       Random Forest    0.9974 0.994210  0.940092
-            XGBoost    0.9973 0.998686  0.937644
+            XGBoost    0.9973 0.998686  0.937644   
                 SVM    0.9789 0.854001  0.370149
 Logistic Regression    0.9771 0.666312  0.000000
 
@@ -38,7 +38,7 @@ TOP 10 MOST IMPORTANT FEATURES
  6. CompDiffWalk         0.0200
 
 KEY INSIGHTS
----------------
+
 1. BASELINE PERFORMANCE
    • Best accuracy achieved: 99.7%
    • Target of 80%+ accuracy: ✓ ACHIEVED
