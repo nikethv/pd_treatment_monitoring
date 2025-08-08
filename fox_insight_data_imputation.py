@@ -1,7 +1,7 @@
 """
 Fox Insight Dataset - Missing Data Imputation & Completeness Enhancement
 ======================================================================
-Author: Niket
+Author: Niketh
 Purpose: Improve data completeness for multimodal PD treatment monitoring
 Input: fox_insight_multimodal_CORE.csv
 Output: fox_insight_multimodal_CORE_IMPUTED.csv
