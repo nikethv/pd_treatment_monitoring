@@ -4,23 +4,19 @@ Generated: August 3, 2025
 Phase: 6 - Baseline Model Development
 Target: CGIPD (Clinical Global Impression)
 
-MODEL PERFORMANCE SUMMARY
-------------------------------
+
               Model  Accuracy      AUC  F1-Score
       Random Forest    0.9974 0.994210  0.940092
             XGBoost    0.9973 0.998686  0.937644   
                 SVM    0.9789 0.854001  0.370149
 Logistic Regression    0.9771 0.666312  0.000000
 
-BEST PERFORMING MODEL
--------------------------
 Model: Random Forest
 Accuracy: 0.9974 (99.7%)
 AUC: 0.9942
 F1-Score: 0.9401
 
-FEATURE ANALYSIS
---------------------
+
 Total features used: 16
 Features: age, Sex, Education, Income, Employment, CompDiffWalk, Episode, EpisodeOff, WalkDay, Work, PdpropSev_1, PdpropSev_2, PdpropSev_3, HandsWriting, PdpropBradySpeech_1, FIVEPDVoice
 
